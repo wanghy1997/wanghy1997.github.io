@@ -1,0 +1,178 @@
+---
+title: 常用命令记录
+icon: gears
+order: 4
+category:
+  - Guide
+tag:
+  - disable
+
+navbar: false
+sidebar: false
+
+breadcrumb: false
+pageInfo: false
+contributors: false
+editLink: false
+lastUpdated: false
+prev: false
+next: false
+comment: false
+footer: false
+
+backtotop: false
+---
+
+常用的命令会被记录在这里，方便查阅。
+
+### VUE项目命令
+
+{
+  "scripts": {
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src"
+  }
+}
+
+- `pnpm run docs:dev` 启动开发服务器
+- `pnpm docs:build` 构建项目并输出
+- `pnpm docs:clean-dev` 清除缓存并启动开发服务器
+
+### **服务器端-常用命令**
+
+查看gpu使用情况：`watch -n1 gpustat`
+
+ip: `ssh `[`why@172.20.5.99`](mailto:why@172.20.5.99)
+
+安装：`pip install -i `[`https://pypi.tuna.tsinghua.edu.cn/simple`](https://pypi.tuna.tsinghua.edu.cn/simple)` 库名`
+
+激活环境：`conda activate why`  /  `conda activate myenv`
+
+解压：
+
+- rar 格式：`rar x /data1/why/ADA_datasets/MM_WHS_np/data_np.rar /data1/why/MM_WHS_np` 
+
+- zip格式： `unzip /data/why/MM_WHS_np/data_np.zip -d /data/why/MM_WHS_np`
+
+### tmux会话（用于XSHELL中，可以保证进行离线进行）
+
+建立会话：`tmux new -s why`
+
+建立会话下的新窗口：`Ctrl+b , c`
+
+切换窗口：
+
+→`要切换到窗口2，你可以按下Ctrl-b，然后按下2。`
+
+→`要切换到下一个窗口，你可以按下Ctrl-b，然后按下n。`
+
+断开会话，离线运行：`Ctrl+b , d`
+
+重新访问会话：`tmux attach-session -t why`
+
+查看会话列表：`tmux ls / tmux list-sessions`
+
+打开会话：`tmux a -t why`
+
+kill 会话：`tmux kill-session -t why`
+
+### GPU进程
+
+查看进程：`nvidia-smi `（得到进程号）
+
+kill进程：`kill -9`  +进程号
+
+### 服务器ip
+
+脑科学中心A6000： `192.168.191.100:22  why  1`
+
+学校A5000：`10.16.59.81 ljx cqupt@leng`
+
+学校A100：  `172.20.5.99:22 why cqupt@why`
+
+### 常用账号及密码
+
+chat[gpt](https://chat.openai.com/)    [`hxjmgpt4@outlook.com`](mailto:hxjmgpt4@outlook.com)` `  `123123123..a`
+
+90[tsg](http://www.90tsg.com/)      `38016845`    `696347`
+
+SSH Key的创建：  `ssh-keygen -t rsa -b 4096 -C "`[`why_6267@163.com`](mailto:your_email@example.com)`"`
+
+### MONAI 相关
+
+MONAI Vision Language Models：[[code](https://github.com/Project-MONAI/VLM?tab=readme-ov-file)] [pdf]
+
+## 个人信息-基金-地址
+
+### 基金
+
+- BYJS202410, 2024 Chongqing University of Posts and Telecommunications Doctoral Innovative Talent Project, 主持, 3W.  结项时间为：2026年底
+
+### 地址
+
+Chongqing Key Laboratory of Image Cognition, Chongqing University of Posts and Telecommunications, Chongqing, China
+
+## AI 工具
+
+### 流程图
+
+- [Napkin.ai](https://www.napkin.ai/)  用于文本生成流程图
+
+其他
+
+
+
+## 论文工具合集
+
+- [【电脑】【论文小工具】No.15【开源 Markdown 编辑器】](https://mp.weixin.qq.com/s?__biz=MzAxNTY4NjEzMg==&mid=2247484909&idx=1&sn=06887442c47e4bd5ad950ed15d243f27&chksm=9b810576acf68c609c2bf2d4989af3eb1aecae47a9c8931d84f7322f84d52e7804db50ec8db8&scene=178&cur_album_id=1611867218101764098#rd)
+- [【电脑】【论文小工具】No.14【表格生成神器Tables Generator】](https://mp.weixin.qq.com/s?__biz=MzAxNTY4NjEzMg==&mid=2247484872&idx=1&sn=5c5903dde4f0b9e9465b9af515bcba7e&chksm=9b810553acf68c45750622e59a3380fcab683adff85faee78fe4fb8a6397918170ca5eac8e6d&scene=178&cur_album_id=1611867218101764098#rd)
+- [【电脑】【论文小工具】No.12【参考文献神器—Connected Papers】](https://mp.weixin.qq.com/s?__biz=MzAxNTY4NjEzMg==&mid=2247484852&idx=1&sn=554f3a4be8068cca732d66bdc8d767a3&chksm=9b81052facf68c3928a67d5bb95bede5cee41c23ca0d8cedb10f8af4c1f77bce16e49d15af37&scene=178&cur_album_id=1611867218101764098#rd)
+
+## 软件安装WIN
+
+### mathtype6.9
+
+链接：https://pan.baidu.com/s/1l3Q-kbED_e6RNu9LKpp9Mg?pwd=brhz 提取码：brhz --来自百度网盘超级会员V4的[分享](https://blog.csdn.net/weixin_44198316/article/details/120692731?utm_medium=distribute.pc_feed_404.none-task-blog-2~default~BlogCommendFromBaidu~Rate-1-120692731-blog-null.pc_404_mixedpudn&depth_1-utm_source=distribute.pc_feed_404.none-task-blog-2~default~BlogCommendFromBaidu~Rate-1-120692731-blog-null.pc_404_mixedpud)
+
+## 链接-重要链接
+
+- [国自然科学基金网站](https://kd.nsfc.gov.cn/)
+
+- [使用TensorBoard可视化pytorch模型、数据](https://blog.csdn.net/cxx654/article/details/116069364)
+- [卷积核相关的代码集合](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
+- [审稿人意见回复模板](https://www.zhihu.com/question/460475233)
+- [CT Challenge](https://app.box.com/s/eaw4jddb53keg1bptavvvd1sf4x3pe9h/folder/144226105715)
+- [医学图像数据集种子网站](https://academictorrents.com/)
+- [PowerToys](https://github.com/microsoft/PowerToys/releases)
+- [腾讯云服务器部署方法](https://cloud.tencent.com/document/product/1207/44578)
+- [nnUNet使用详解](https://mp.weixin.qq.com/s/Rw6MZV5zchZ86wxjkE8LTA)
+- 【百度网盘】「19毕业照」链接：https://pan.baidu.com/s/1395z9MsSiFcjrFD0HaTcRw提取码：1323
+
+
+
+## 期刊汇总
+
+### 三区、四区
+
+[COMMUNICATIONS OF THE ACM](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=1920) （四区，审稿1-3个月）
+
+[IEEE MULTIMEDIA](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=3345) （四区，审稿3个月以上）
+
+[CONSTRAINTS](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2034)（四区，审稿3个月以上）
+
+[Intelligent Data Analysis](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=3613)（四区，审稿3个月以上）
+
+[Swarm Intelligence](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=8991)（四区刚升三区，审稿3个月以上）
+
+[NEURAL COMPUTATION](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=6122)（四区，审稿3个月以上）
+
+[CONNECTION SCIENCE](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=2029)（四区，审稿3个月以上）
+
+[AI COMMUNICATIONS](http://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=344)（四区，审稿3个月以上）（有人投医学+人工智能）
+
+
+
+## 项目开发
+
+- [pyqt5、qtdesigner安装和环境设置教程](https://download.csdn.net/download/weixin_38631401/13996637?ops_request_misc={"request_id"%3A"165363198016780357288636"%2C"scm"%3A"20140713.130102334.pc_all."}&request_id=165363198016780357288636&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~first_rank_ecpm_v1~rank_v31_ecpm-7-13996637-null-null.142^v11^pc_search_result_control_group,157^v12^new_style1&utm_term=PyQt5%2BQt+designer&spm=1018.2226.3001.4187.7)
