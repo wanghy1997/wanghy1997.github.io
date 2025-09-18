@@ -1,5 +1,5 @@
 ---
-title: Customizable
+title: About me
 index: false
 icon: laptop-code
 category:
