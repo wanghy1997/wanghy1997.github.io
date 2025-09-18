@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
 
-  "/ABOUT ME/",
+  "/HOME/",
     { text: "Archiver",
     link: "archiver/README.md",
     icon: "box-archive",
@@ -109,7 +109,7 @@ export const enNavbar = navbar([
     ],
   },
   // "/others/",
-  {
+    {
     text: "Posts",
     icon: "pen-to-square",
     prefix: "/posts/",
