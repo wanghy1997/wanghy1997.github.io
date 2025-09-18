@@ -11,7 +11,7 @@ projects:
   - icon: folder-open
     name: Github repositories
     desc: Continuously updated...
-    link: https://github.com/WendongWish?tab=repositories
+    link: https://github.com/wanghy1997
         
   - icon: user-group
     name: Mengjingcheng Mo
