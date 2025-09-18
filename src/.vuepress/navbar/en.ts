@@ -1,7 +1,7 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
-
+//这是顶部导航栏
   "/HOME/",
     { text: "Archiver",
     link: "archiver/README.md",
@@ -26,7 +26,7 @@ export const enNavbar = navbar([
         text: "MIA",
         prefix: "MIA/",
         children: [
-          // { text: "Medical Image Analysis", icon: "expand", link: "README.md" },
+          { text: "Medical Image Analysis", icon: "expand", link: "MIA.md" },
           { text: "Medical Image Segmentation", icon: "expand", link: "Medical image segmentation.md" },
         ],
       },
@@ -45,6 +45,13 @@ export const enNavbar = navbar([
           { text: "Object Detection", icon: "expand", link: "object_detection.md" },
           { text: "Open World", icon: "expand", link: "OpenWorld.md" },
           { text: "Robotic Arms", icon: "expand", link: "robot.md" },
+        ],
+      },
+      {
+        text: "Notebook",
+        prefix: "Notebook/",
+        children: [
+           { text: "常用命令", icon: "expand", link: "命令.md" },
         ],
       },
 

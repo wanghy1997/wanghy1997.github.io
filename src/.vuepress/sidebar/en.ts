@@ -4,10 +4,10 @@ export const enSidebar = sidebar({
   "/": [
     "/",
     {
-      text: "No.2",
+      text: "ARCHIVER",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "browser/",
+      prefix: "archiver/",
+      link: "archiver/",
       children: "structure",
     },
     {
