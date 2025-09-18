@@ -1,5 +1,5 @@
 ---
-title: About me
+title: ABOUT ME
 index: false
 icon: laptop-code
 category:
