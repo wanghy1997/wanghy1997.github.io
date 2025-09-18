@@ -2,7 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebar = sidebar({
   "/": [
-    "No.1",
+    "/",
     {
       text: "No.2",
       icon: "laptop-code",
