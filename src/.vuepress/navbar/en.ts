@@ -26,7 +26,7 @@ export const enNavbar = navbar([
         text: "MIA",
         prefix: "MIA/",
         children: [
-          { text: "Medical Image Analysis", icon: "expand", link: "MIA.md" },
+          { text: "Medical Image Analysis", icon: "expand", link: "Mitosis detection.md" },
           { text: "Medical Image Segmentation", icon: "expand", link: "Medical image segmentation.md" },
         ],
       },
